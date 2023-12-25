@@ -1,0 +1,4 @@
+enum DisplayType
+{
+LCD,OLED,EVF,TFT,AMOLED,HYBRIDVIEWFINDER;
+}

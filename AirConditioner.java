@@ -1,4 +1,6 @@
-public class AirConditioner
+public class AirConditioner          //  everything in java is associated with class and object along with the attributes and methods.
+                                     // for example in real life a car is a real is an object and the car attributes such as weight, colour and method such as drive and brake
+							         // a class is a object constructor or bluepribt for creating a object                              
 {
    String brand;
    int powerConsuption;
@@ -74,7 +76,7 @@ public class AirConditioner
    public static void main(String[] args)
    {
 	   
-	   AirConditioner obj1= new AirConditioner("Hitachi",1540,"white",36990,true,(byte)2);
+	   AirConditioner obj1= new AirConditioner("Hitachi",1540,"white",36990,true,(byte)2); // obeject is instance of class
 	   obj1.Details();
 	   
 	   AirConditioner obj2= new AirConditioner("Hitachi",1540,"white",36990,true);

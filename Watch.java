@@ -1,6 +1,4 @@
- 
- 
- 
+
  public class Watch
 {
 public static void main(String [] args)
@@ -47,8 +45,11 @@ public static void main(String [] args)
  class Jupiter
 
 {
-	
- Jupiter()
+	       // constructor is a special method ,block of code it is executed whenevre an object is created.
+		   // tyes are=default constructor ->if there is no constructor in a class,then compiler will creats an defalult constructor
+		   //prameterized constructor-> constructor with parameter
+		   // NO prameterized constructor-> constructor with NO parameter 
+ Jupiter()//   use case of constructor is to initialize the objects/instance varialbes
 {
 System.out.println(" Jupiter=No Parametrs");
 }	

@@ -23,7 +23,7 @@ System.out.println("Book Type is: "+this.type);
 
 }
 
-Book (String bookName,short noOfPages,String author,int price,short publishedYear,String publisher,String type)
+Book (String bookName,short noOfPages,String author,int price,short publishedYear,String publisher,String type)  // parameter is a declaration of variables within the method braces
 {
 	    this.bookName=bookName; 
 		this.noOfPages=noOfPages;

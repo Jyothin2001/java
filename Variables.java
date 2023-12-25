@@ -4,8 +4,8 @@ public class Variables
 	{
 		//byte = 1byte = -128 to 127
 		
-	 byte averageIqOfAPerson = 90; 
-	 System.out.println(averageIqOfAPerson);
+	 byte averageIqOfAPerson = 90; // Variable declaration and initializion
+	 System.out.println(averageIqOfAPerson); // prints the arguments passed to it and also prints in new line
 	
 	 byte VoterAge = 18;
 	 System.out.println(VoterAge);

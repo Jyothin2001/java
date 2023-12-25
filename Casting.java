@@ -2,7 +2,7 @@ public class Casting
 {
 public static void main(String[] args)
 {
-// up casting(explicit type or wildning)= converts low level datatype value into high level datatype value
+// up casting(explicit type or wildning)= compiler converts lower datatype value into higher datatype value
 
 byte number=45;
 short value=number;
@@ -25,7 +25,7 @@ int value4=num4;
 System.out.println(value4);  // it shows output as ASCII value of small letter j=106
 
 
-// down  casting(implicit type or norrow type)= converts high level datatype value into low level datatype value here the problem is we lost some data  
+// down  casting(implicit type or norrow type)= converts higher datatype value into lower datatype value ,here the problem is we lost some data  
 
 long num5=65423560987l;
 int value5=(int) num5;
