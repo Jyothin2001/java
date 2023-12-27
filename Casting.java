@@ -4,7 +4,7 @@ public static void main(String[] args)
 {
 // up casting(explicit type or wildning)= compiler converts lower datatype value into higher datatype value
 
-byte number=45;
+byte number=34;
 short value=number;
 System.out.println(value);
 
