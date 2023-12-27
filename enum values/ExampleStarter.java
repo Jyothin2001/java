@@ -15,10 +15,25 @@ public static void main(String[] args)
 		System.out.println(obj.result.value);
 		System.out.println(obj.grade.value);
 		System.out.println(obj.days.value);
-		System.out.println(obj.light.value);
+		System.out.println(obj.light.value);*/
 		
 		BloodGroups ab = BloodGroups.A_POSITIVE; //way=store enum.its value to a variable
 	    System.out.println(ab);
+		 
+		 BloodGroups val1 = BloodGroups.B_POSITIVE; //way=store enum.its value to a variable
+	    System.out.println(val1);
+		
+		 if(val1.value == 0)            ////way1=store enum.its value to a variable then add .value to compare
+	   {
+		   System.out.println("one is greater than 1 ");
+		}
+		else
+		{
+			System.out.println("one is lesser than 1");
+		}
+		
+		
+		
 	   
 	    Semester abc = Semester.FIRST;
 	    System.out.println(abc); 
@@ -43,6 +58,15 @@ public static void main(String[] args)
 		else
 		{
 			System.out.println("the Given Rating value is 2  not equals to 2");
+		}
+		
+		if(obj.food.value=="veg") // way2=direct give .value to compare
+		{
+			System.out.println("yes! it is veg");
+		}
+		else
+		{
+			System.out.println("no! it is not veg");
 		}
 		
   
