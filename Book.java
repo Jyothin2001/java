@@ -14,7 +14,7 @@ public void printBookDetails() //Method
 {
 
 System.out.println("--------------------------------------------------------------------------------------");
-System.out.println("Book Name: "+this.bookName);
+System.out.println("Book Name is: "+this.bookName);
 System.out.println("Nuber of pages: "+this.noOfPages);
 System.out.println("Author Name: "+this.author);
 System.out.println("Year of published: "+this.publishedYear);
