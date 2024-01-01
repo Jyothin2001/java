@@ -1,4 +1,4 @@
-public class Employee
+public class EmployeeDetails
 {
 static  String companyName="TCS";
 static String ceo="suma";
