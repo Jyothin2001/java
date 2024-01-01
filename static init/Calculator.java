@@ -1,4 +1,4 @@
-public class Calculators
+public class Calculator
 {
    // static method 
    static void add()
@@ -48,7 +48,7 @@ public class Calculators
    void factorial()
    {
    
-   System.out.println(" Facrorial");
+   System.out.println(" Factorial");
    
    }
    void root()
