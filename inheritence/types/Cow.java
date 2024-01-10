@@ -1,4 +1,4 @@
-public class Cow extends Animal
+public class Cow extends Domestic
 {
 	byte noOfhorns;
 	boolean isHarbivorous;
